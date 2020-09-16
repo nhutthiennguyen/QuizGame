@@ -1,0 +1,56 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    background-image:url(./images/bgbg.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.25);
+    width: 960px;
+    min-height:500px;
+    margin: 0 auto;
+    h1 {
+        text-align: center;
+    }
+    .score, .loading {
+        align-self: center;
+        font-weight: 700;
+        color: white;
+        font-size: 50px;
+    }
+    .start, .next{
+        cursor: pointer;
+        background:linear-gradient(180deg, #fff, #ffcc91);
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+        height: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        align-self: center;
+        margin: 20px 0;
+        padding: 0 40px;
+        margin-top: 10%;
+    }
+}
+.question-card {
+   text-align: center;
+   font-size: 30px;
+   color:black;
+   .answer-button{
+       button {
+           min-width: 300px;
+           padding: 10px 20px;
+           
+       }
+       span{
+           
+       }
+   }
+}
+.correct {
+    background-color: rgb(15, 196, 15);
+}
+.incorrect {
+   
+}
